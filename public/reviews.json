@@ -1,0 +1,44 @@
+[
+    {
+        "id": "6249bc2b42d61885d1a49d53",
+        "picture": "http://placehold.it/32x32",
+        "name": "Rich Shields",
+        "rating": 4.5,
+        "review": "nice collection"
+    },
+    {
+        "id": "6249bc2b2bf91d263946fe6b",
+        "picture": "http://placehold.it/32x32",
+        "name": "Benita Hayes",
+        "rating": 4.0,
+        "review": "cool products, and delivered in time."
+    },
+    {
+        "id": "6249bc2be4c6a14ec258d1da",
+        "picture": "http://placehold.it/32x32",
+        "name": "Ayala Oconnor",
+        "rating": 5.0,
+        "review": "fabrics quality is really good"
+    },
+    {
+        "id": "6249bc2b82b7d076cc1e5c7e",
+        "picture": "http://placehold.it/32x32",
+        "name": "Estela Workman",
+        "rating": 3.5,
+        "review": "nice collections but could not find the color I wanted"
+    },
+    {
+        "id": "6249bc2b87f52e3f1d5b55c1",
+        "picture": "http://placehold.it/32x32",
+        "name": "Wagner Matthews",
+        "rating": 4.5,
+        "review": "I loved their customer service"
+    },
+    {
+        "id": "6249bc2b6e7e7d800a43fbca",
+        "picture": "http://placehold.it/32x32",
+        "name": "Vicky Prince",
+        "rating": 4.5,
+        "review": "nice collections"
+    }
+]

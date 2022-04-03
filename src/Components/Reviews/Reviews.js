@@ -7,7 +7,7 @@ const Reviews = () => {
 
     return (
         <div className='mt-10'>
-            <h1 className='text-3xl'>Words of Customers</h1>
+            <h1 className='text-3xl'>Words of <span className='text-red-500'>Customers</span></h1>
 
             <div className='grid grid-cols-3 gap-3 px-5 mt-8'>
                 {

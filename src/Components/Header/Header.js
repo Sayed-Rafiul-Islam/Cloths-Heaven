@@ -4,8 +4,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            <h1>This is Header</h1>
+        <div className='my-3'>
             <nav>
                 <CustomLink to='/home'>HOME</CustomLink>
                 <CustomLink to='/reviews'>REVIEWS</CustomLink>

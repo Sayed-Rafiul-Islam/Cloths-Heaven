@@ -2,13 +2,17 @@ import React from 'react';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import image from '../../images/cloths.png';
-import { Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
     const homeReviews = reviews.slice(3);
+    const navigate = useNavigate();
+
+    const showAllReviews = () => {
+        navigate('/reviews');
+    }
     return (
         <div className='mt-12'>
             <div className='grid grid-cols-2 mb-12'>
@@ -30,7 +34,7 @@ const Home = () => {
                         ></Review>)
                     }
                 </div>
-                <button className='bg-red-600 text-white px-8 py-2 rounded-md' >See All Reviews</button>
+                <button onClick={() => showAllReviews()} className='bg-red-600 text-white px-8 py-2 rounded-md' >See All Reviews</button>
             </div>
 
         </div>

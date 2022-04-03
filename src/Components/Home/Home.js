@@ -14,7 +14,7 @@ const Home = () => {
         navigate('/reviews');
     }
     return (
-        <div className='mt-12'>
+        <div className='mt-12 pb-36'>
             <div className='grid grid-cols-2 mb-12'>
                 <div className='text-left p-4'>
                     <h1>BUY THE BEST <span className='text-red-500'>CLOTHS</span></h1>
@@ -36,7 +36,6 @@ const Home = () => {
                 </div>
                 <button onClick={() => showAllReviews()} className='bg-red-600 text-white px-8 py-2 rounded-md' >See All Reviews</button>
             </div>
-
         </div>
     );
 };

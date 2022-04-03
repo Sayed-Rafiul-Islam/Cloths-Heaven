@@ -1,6 +1,10 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
+import image from '../../images/cloths.png';
+import { Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom'
+
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
@@ -12,9 +16,8 @@ const Home = () => {
                     <h1>BUY THE BEST <span className='text-red-500'>CLOTHS</span></h1>
                     <p className='italic pr-12'>You can find various types of clothing stuff in this website. We always make sure that the quality of our products remain top notch. And customer satisfaction if our top priority. Don't have to believe us, just rome around the reviews section and you will know. Happy Shopping !</p>
                 </div>
-                <div className='bg-gray-600'>
-                    <h1>hey </h1>
-                    <img src="./cloths.png" alt="" />
+                <div>
+                    <img className="w-3/4 ml-28 rounded-3xl" src={image} alt="" />
                 </div>
             </div>
             <div>
@@ -27,8 +30,7 @@ const Home = () => {
                         ></Review>)
                     }
                 </div>
-                {/* <button className='bg-red-600 text-white px-8 py-2 rounded-md' >
-            </button> */}
+                <button className='bg-red-600 text-white px-8 py-2 rounded-md' >See All Reviews</button>
             </div>
 
         </div>

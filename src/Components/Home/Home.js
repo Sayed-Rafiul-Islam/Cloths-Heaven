@@ -3,6 +3,7 @@ import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
 import image from '../../images/cloths.png';
 import { useNavigate } from 'react-router-dom';
+import './Home.css'
 
 
 const Home = () => {
@@ -16,8 +17,8 @@ const Home = () => {
     return (
         <div className='mt-12 pb-36 lg:mx-0 mx-auto'>
             <div className='grid lg:grid-cols-2 grid-cols-1 mb-12'>
-                <div className='lg:text-left text-justify p-4  lg:ml-0 ml-8'>
-                    <h1 className='lg:text-left text-center lg-mx-0 mr-9'>BUY THE BEST <span className='text-red-500'>CLOTHS</span></h1>
+                <div className='lg:text-left lg:ml-0 text-justify ml-8 p-4'>
+                    <h1 className='center mr-9 mb-4 lg:text-left lg-mx-0 lg:mb-0'>BUY THE BEST <span className='text-red-500'>CLOTHS</span></h1>
                     <p className='italic pr-12'>You can find various types of clothing stuff in this website. We always make sure that the quality of our products remain top notch. And customer satisfaction if our top priority. Don't have to believe us, just rome around the reviews section and you will know. Happy Shopping !</p>
                 </div>
                 <div className='lg:ml-0 mx-auto w-3/4'>

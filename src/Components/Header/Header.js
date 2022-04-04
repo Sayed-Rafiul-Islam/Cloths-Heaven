@@ -5,7 +5,7 @@ import './Header.css';
 const Header = () => {
     return (
         <div className='my-3'>
-            <nav>
+            <nav className='flex lg:flex-row flex-col'>
                 <CustomLink to='/home'>HOME</CustomLink>
                 <CustomLink to='/reviews'>REVIEWS</CustomLink>
                 <CustomLink to='/dashboard'>DASHBOARD</CustomLink>

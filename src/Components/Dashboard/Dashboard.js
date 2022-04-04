@@ -12,9 +12,9 @@ const Dashboard = () => {
     }, [])
 
     return (
-        <div className='flex flex-wrap justify-between mt-12 w-full'>
-            <div className='w-1/2 flex flex-col items-center'>
-                <h1 className='mb-12'>Bar<span className='text-red-500'>Chart</span></h1>
+        <div className='flex lg:flex-row flex-col flex-wrap justify-between mt-12 w-full'>
+            <div className='lg:w-1/2 w-full flex flex-col items-center mb-10'>
+                <h1 className='lg:mb-12 mb-8'>Bar<span className='text-red-500'>Chart</span></h1>
                 <BarChart width={700} height={250} data={data}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="month" />
@@ -26,8 +26,8 @@ const Dashboard = () => {
                     <Bar dataKey="investment" fill="#20c997" />
                 </BarChart>
             </div>
-            <div className='w-1/2 flex flex-col items-center'>
-                <h1 className='mb-12'>Composed<span className='text-red-500'>Chart</span></h1>
+            <div className='lg:w-1/2 w-full flex flex-col items-center'>
+                <h1 className='lg:mb-12 mb-8'>Composed<span className='text-red-500'>Chart</span></h1>
                 <ComposedChart width={700} height={250} data={data}>
                     <XAxis dataKey="month" />
                     <YAxis dataKey="investment" />

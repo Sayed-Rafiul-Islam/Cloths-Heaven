@@ -9,14 +9,15 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <Link
-                style={{ color: match ? "red" : "black" }}
+                style={{ color: match ? "red" : "black", borderBottom: match ? '3px solid red' : 'none' }}
                 to={to}
                 {...props}
             >
                 {children}
             </Link>
 
-        </div>
+
+        </div >
     );
 }
 

@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import useReviews from '../../hooks/useReviews';
 import Review from '../Review/Review';
-import image from '../../images/cloths.png';
 import { useNavigate } from 'react-router-dom';
 import './Home.css'
 
@@ -23,7 +22,7 @@ const Home = () => {
                     <p className='italic pr-12'>You can find various types of clothing stuff in this website. We always make sure that the quality of our products remain top notch. And customer satisfaction if our top priority. Don't have to believe us, just rome around the reviews section and you will know. Happy Shopping !</p>
                 </div>
                 <div className='lg:ml-0 mx-auto w-3/4'>
-                    <img className="lg:w-3/4 lg:ml-28 rounded-3xl" src={image} alt="" />
+                    <img className="lg:w-3/4 lg:ml-28 rounded-3xl" src='https://i.ibb.co/C1H6GxC/cloths.jpg' alt="" />
                 </div>
             </div>
             <div>
@@ -31,7 +30,6 @@ const Home = () => {
                 <div className='grid lg:grid-cols-3 grid-cols-1 gap-3 px-5 mt-8 mb-4'>
                     {
                         homeReviews.map(review => <Review
-
                             review={review}
                         ></Review>)
                     }

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "name": "Rich Shields",
+        "image": "https://i.ibb.co/vP6t2g1/4.jpg",
+        "rating": "4.5",
+        "review": "nice collection"
+    },
+    {
+        "id": "2",
+        "name": "Benita Hayes",
+        "image": "https://i.ibb.co/ygxLhTt/f1.jpg",
+        "rating": "4",
+        "review": "cool products, and delivered in time."
+    },
+    {
+        "id": "3",
+        "name": "Ayala Oconnor",
+        "image": "https://i.ibb.co/QkLtGYv/f2.jpg",
+        "rating": "5",
+        "review": "fabrics quality is really good"
+    },
+    {
+        "id": "4",
+        "name": "Estela Workman",
+        "image": "https://i.ibb.co/2SXgbX9/m1.jpg",
+        "rating": "3.5",
+        "review": "nice stuff but could not find perfect color"
+    },
+    {
+        "id": "5",
+        "name": "Wagner Matthews",
+        "image": "https://i.ibb.co/7gYvrCK/m2.jpg",
+        "rating": "4.5",
+        "review": "I loved their customer service"
+    },
+    {
+        "id": "6",
+        "name": "Vicky Prince",
+        "image": "https://i.ibb.co/ZW0BHC3/m3.jpg",
+        "rating": "4.5",
+        "review": "nice collection"
+    }
+]
